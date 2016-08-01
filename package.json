@@ -1,7 +1,7 @@
 {
   "name": "tfk-choo-livestats-base",
   "description": "Poc of livestats page using choo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -30,10 +30,12 @@
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install && node setup.js",
+    "dev": "budo app.js",
     "build": "NODE_ENV=production browserify app.js -t envify -g yo-yoify -g unassertify -g es2020 -g uglifyify | uglifyjs --compress --mangle -o dist/bundle.min.js"
   },
   "devDependencies": {
     "browserify": "13.1.0",
+    "budo": "8.3.0",
     "coveralls": "2.11.12",
     "envify": "3.4.1",
     "es2020": "1.1.7",
