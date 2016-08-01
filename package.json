@@ -1,6 +1,6 @@
 {
   "name": "tfk-choo-livestats-base",
-  "description": "Poc of livestats page using choo",
+  "description": "Base for livestats pages using choo",
   "version": "1.0.2",
   "license": "MIT",
   "author": {
