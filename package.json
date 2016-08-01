@@ -34,20 +34,20 @@
   },
   "devDependencies": {
     "browserify": "13.1.0",
-    "coveralls": "2.11.11",
+    "coveralls": "2.11.12",
     "envify": "3.4.1",
     "es2020": "1.1.7",
     "nsp": "2.6.1",
     "standard": "7.1.2",
-    "tap": "6.2.0",
+    "tap": "6.3.0",
     "uglifyify": "3.0.2",
     "uglifyjs": "2.4.10",
     "unassertify": "2.0.3",
-    "yo-yoify": "3.3.0"
+    "yo-yoify": "3.4.0"
   },
   "dependencies": {
     "choo": "3.2.0",
     "firebase": "3.2.1",
-    "lodash": "4.14.0"
+    "lodash": "4.14.1"
   }
 }
