@@ -2,6 +2,6 @@
 
 module.exports = {
   databaseURL: 'https://tfk-livestats.firebaseio.com',
-  databaseEntrypoint: 'skoleskyss',
-  appTitle: 'Livestatistikk skoleskyss.t-fk.no'
+  databaseEntrypoint: 'minelev',
+  appTitle: 'Livestatistikk minelev.t-fk.no'
 }
