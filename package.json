@@ -26,9 +26,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "standard && nsp check && tap --reporter=spec test/*.js",
-    "coverage": "tap test/*.js --coverage",
-    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "coverage": "tap test/**/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install",
     "dev": "budo app.js",
     "build": "NODE_ENV=production browserify app.js -t envify -g yo-yoify -g unassertify -g es2020 -g uglifyify | uglifyjs --compress --mangle -o dist/bundle.min.js"
