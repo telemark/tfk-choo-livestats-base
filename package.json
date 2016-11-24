@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/telemark/tfk-choo-livestats-base",
   "engines": {
-    "node": ">=4.6.0"
+    "node": ">=6.9.1"
   },
   "main": "index.js",
   "scripts": {
