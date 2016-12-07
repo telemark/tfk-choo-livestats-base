@@ -1,7 +1,7 @@
 {
   "name": "tfk-choo-livestats-base",
   "description": "Base for livestats pages using choo",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
