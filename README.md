@@ -1,5 +1,7 @@
 # tfk-choo-livestats-base
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-choo-livestats-base.svg)](https://greenkeeper.io/)
+
 Livestats pages from Firebase based on [Choo](https://github.com/yoshuawuyts/choo)
 
 ## Usage
